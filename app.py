@@ -90,7 +90,7 @@ chat_history = [
     ]
 
 
-uri = "mongodb+srv://Gotham:1s87CTYiYIBqZUqQx3@cluster0.bcfst.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+uri = "mongodb+srv://Gotham:s87CTYiYIBqZUqQx@cluster0.bcfst.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 # Conectar ao Atlas
 client_mongo = MongoClient(uri, server_api=ServerApi('1'))
@@ -300,8 +300,7 @@ async def handle_media_stream(websocket: WebSocket):
                                             dicionario["Condominio"] = condominio
                                             print(f"o dicionario ficou: {dicionario}")
                                             # Conectar ao MongoDB
-                                            uri = "mongodb+srv://Gotham:1s87CTYiYIBqZUqQx3@cluster0.bcfst.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-
+                                            uri = "mongodb+srv://Gotham:s87CTYiYIBqZUqQx@cluster0.bcfst.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
                                             # Conectar ao Atlas
                                             client_mongo = MongoClient(uri, server_api=ServerApi('1'))
 
