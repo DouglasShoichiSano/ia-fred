@@ -26,10 +26,6 @@ from difflib import SequenceMatcher
 from twilio.rest import Client
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
-# Inicializar o cliente Groq
-groq_api_key = "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"
-model = 'llama3-70b-8192'
-client_groq = Groq(api_key=groq_api_key)
 
 
 # Definindo as listas com os links
