@@ -127,9 +127,6 @@ def selecionar_audio_boas_vindas():
     audio_boas_vindas = random.choice(lista)
     return audio_boas_vindas
 
-dotenv_path = 'c:/Users/DELL/Desktop/IA_Port/api_key.env'
-load_dotenv(dotenv_path=dotenv_path)
-
 # Configuration
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY') # requires OpenAI Realtime API Access
 PORT = int(os.getenv('PORT', 5050))
