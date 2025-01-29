@@ -12,5 +12,4 @@ groq
 pydantic
 asyncio
 websockets
-base64
 pytz
