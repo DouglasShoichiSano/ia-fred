@@ -2,9 +2,15 @@ fastapi
 uvicorn
 websockets
 twilio
-pymongo
 python-dotenv
+pymongo[srv]
 jinja2
 pandas
+bson
 requests
 groq
+pydantic
+asyncio
+websockets
+base64
+pytz
